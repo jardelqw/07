@@ -1,0 +1,56 @@
+#app{
+  display: grid;
+  grid-template-columns: 31.25% 68.75%;
+
+  /* height: 100vh; */
+  overflow: hidden;
+}
+
+
+
+
+aside{
+  
+  /* padding: 2rem; */
+  
+  
+  img { 
+    
+    /* border:solid blue; */
+    height: 3rem;
+    
+    margin: 1rem;
+    display: flex;
+    
+  }  
+  
+  p{
+    margin-left: 1rem;
+    color: var(--text-heading);
+    font-size: var(--open-sans);
+    font-weight: lighter;
+  }
+  
+  #img{
+    border: solid transparent;
+    margin-top: 1rem;
+  }
+}
+
+header{
+  /* border: solid red; */
+  width: 400px;
+  margin: 1rem;
+  height: 728px;
+  object-fit: cover;
+
+  background: url(../assets/imagens/Background.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+  border-radius: 1rem;
+}
+
+/* /////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////// */
+

@@ -6,6 +6,8 @@
 }
 
 :root{
+  zoom: 125%;
+
   --brand-light:#59b2ff;
   --band-mid:#3487cf;
   --brand-dark:#1d6fb6;
@@ -35,7 +37,7 @@
   --text-heading:#f9f9f9;
 
   --open-sans:"Open Sans", sans-serif;
-  --leckerli:"Leckerli One", cursive;
+  --leckerli:"Leckerli One", sans-serif;
   --baloo: "Baloo 2", sans-serif;
 
 
@@ -43,5 +45,8 @@
 }
 
 body{
-  background-color: #29292E;
+  background-color: var(--shape-background);
+
+  overflow: hidden;
+
 }
